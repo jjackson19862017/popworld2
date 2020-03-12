@@ -16,8 +16,9 @@ def all_bids(request):
         """ The winning bidder will have chance to pay """
         for i in bid:
             end_time_list.append(str(i.auction_id.end_time))
-        publishable_key = settings.STRIPE_PUBLISHABLE
-        return render(request, "bid.html", {"bid": bid, 'key':publishable_key, 'end_time':end_time_list})
+        #publishable_key = settings.STRIPE_PUBLISHABLE
+        #'key':publishable_key,
+        return render(request, "bid.html", {"bid": bid,  'end_time':end_time_list})
     else:
         messages.error(request, "You must be Logged in")
         return redirect(reverse('index'))

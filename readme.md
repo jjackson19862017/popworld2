@@ -228,3 +228,9 @@ To save time I will use code from previous attempt, however will do everything f
 Took me a while to get everything working, many attempts to get it working.  At least im getting better with the views.py files now.  That seems to be where my troubles lie.  I have setup the auctions in Admin, however I will now try to do what I did with my products for the owner and setup it on the HTML side.  Wish me luck.
 
 - Done, didn't take me as long as I thought, used my owners products forms, models and view to save time.  Will come back to this later as I have a few ideas to improve UX.
+
+- Time to look at doing the finishing of the auction or instant buys
+
+- While building the html for the bid.html, I discovered that in my excitement of adding the user auction form.  It doesn't setup properly like it should do with the Admin side.
+
+- I have the information displayed on the bid.html, as much as I could so I will now create the Checkout app

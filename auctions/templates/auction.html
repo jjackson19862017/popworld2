@@ -13,10 +13,10 @@
                     <img class="product" src="{{ MEDIA_URL }}{{ auction.product_id.image }}">
                 </div>
 
-                <p>Product: <span> {{ auction.product_id.name }} </span></p>
+                <h3>{{ auction.product_id.name }}</h3>
                 <p>Description: <span> {{ auction.product_id.description }} </span></p>
                 <p>Auction Started: <span> {{ auction.start_date }} </span></p>
-                <p>Auction Price: <span id="price-highlight"> £ {{ auction.product_id.current_auction_price }} </span></p>
+                <p>Current Auction Price: <span id="price-highlight"> £ {{ auction.product_id.current_auction_price }} </span></p>
                 <p>Start Time: <span> {{ auction.start_time }} </span></p>
                 <p>End Time: <span> {{ auction.end_time }} </span></p>
 
