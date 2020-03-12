@@ -14,8 +14,8 @@ def addproducts(request):
     if request.method == 'POST':
         print("Posted???")
         # create a form instance and populate it with data from the request:
-        APF = ProductsForm(request.POST, request.FILES or None)
-        
+        APF = ProductsForm(request.POST, request.FILES)
+        print("Yes it has been")
         # check whether it's valid:
         if APF.is_valid():
             APF.save()
@@ -25,12 +25,9 @@ def addproducts(request):
             return render(request, "addproducts.html", {'APF': APF})
         else:
                 messages.error(request, "Unable to ADD this product.")
+                print("Not Valid")
     # if a GET (or any other method) we'll create a blank form
     else:
         APF = ProductsForm()
 
     return render(request, "addproducts.html", {'APF': APF})
-
-def test(request):
-    
-    return render(request, "test.html")

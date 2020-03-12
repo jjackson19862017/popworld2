@@ -13,7 +13,7 @@ class ProductsForm(forms.ModelForm):
         instant_buy_price = self.cleaned_data.get('instant_buy_price')
         original_item_cost = self.cleaned_data.get('original_item_cost')
         reserved_buy_price = self.cleaned_data.get('reserved_buy_price')
-        #image = self.cleaned_data.get('image')
+        image = self.cleaned_data.get('image')
         series = self.cleaned_data.get('series')
         character = self.cleaned_data.get('character')
 

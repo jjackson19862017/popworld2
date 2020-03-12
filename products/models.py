@@ -9,7 +9,8 @@ class Product(models.Model):
     reserved_buy_price = models.DecimalField(max_digits=6, decimal_places=2, default=0)
     image = models.ImageField(upload_to='images',
                              width_field="width_field",
-                             height_field="height_field")
+                             height_field="height_field",
+                             blank=True)
     height_field = models.IntegerField(default=0)
     width_field = models.IntegerField(default=0)
     series = models.CharField(max_length=200, default= '')

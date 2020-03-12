@@ -57,6 +57,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
 ## Places I Have Looked For Help
 
 - Django Documentation - <https://docs.djangoproject.com/en/3.0/>
+- Pop In a Box - <https://www.popinabox.co.uk/> - These were used for the Product Images
 
 ## Time-Line
 
@@ -203,7 +204,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 - Messed up my Migrations file so I'm going to start again, from the beginning.
 
-### STARTED PROJECT AGAIN
+## STARTED PROJECT AGAIN
 
 I have used some code from my old project found here at <https://github.com/jjackson19862017/PopWorld>
 To save time I will use code from previous attempt, however will do everything from scratch.
@@ -214,3 +215,9 @@ To save time I will use code from previous attempt, however will do everything f
 - Test - Add Product from Admin section, works with the image.
 - Test - Add Product from form post, fails.
     Im still thinking that its the form/model ????
+
+- Will have to wait for tutor support on a screen sharing session as it still wont work.
+
+- I have had a few poeple trying to help me on slack and tutor support, so thank you to Haley, Kitty, Jo and Feddie.
+
+- Its been 3 hours no with no sucecss so I will move on to the next bit and hopefully come back to this later.
