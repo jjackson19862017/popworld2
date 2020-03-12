@@ -221,3 +221,9 @@ To save time I will use code from previous attempt, however will do everything f
 - I have had a few poeple trying to help me on slack and tutor support, so thank you to Haley, Kitty, Jo and Feddie.
 
 - Its been 3 hours no with no sucecss so I will move on to the next bit and hopefully come back to this later.
+
+- Started working on the Auctions and Bids, and Kitty came back and said I should look at the images not being stored.  Turns out I'd missed a / off the upload_to images/        HAPPY DAYS
+
+- Done my models, for the auctions and bids, did them together as they are in a way linked.  
+Took me a while to get everything working, many attempts to get it working.  At least im getting better with the views.py files now.  That seems to be where my troubles lie.  I have setup the auctions in Admin, however I will now try to do what I did with my products for the owner and setup it on the HTML side.  Wish me luck.
+
