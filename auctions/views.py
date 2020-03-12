@@ -4,6 +4,7 @@ from django.contrib.auth.models import User
 from django.utils import timezone
 from datetime import datetime, timedelta
 from .models import Auction
+from .forms import AuctionForm
 from products.models import Product
 from bids.models import Bid
 
@@ -19,9 +20,6 @@ def all_auctions(request):
         return redirect(reverse('index'))
         
     return render(request, "index.html")
-    
-
-    
 
 def open_auction(request):
     
@@ -69,3 +67,18 @@ def buy_now(request):
         else:
             messages.error(request, "This Auction is unavailable")
     return redirect(reverse('auctions'))
+
+def add_auctions(request):
+    """ Allows Owner to Open Auctions """
+    if request.method == 'POST':
+        AF = AuctionForm(request.POST)
+        if AF.is_valid():
+            AF.save()
+            messages.error(request, "Auction Started!")
+            return render(request, "addauctions.html", {'AF': AF})
+        else:
+            messages.error(request, "Auction Failed!")
+    else:
+        AF = AuctionForm()
+    
+    return render(request, "addauctions.html", {'AF': AF})

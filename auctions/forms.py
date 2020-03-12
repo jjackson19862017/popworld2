@@ -5,4 +5,4 @@ from .models import Auction
 class AuctionForm(forms.ModelForm):
     class Meta:
         model = Auction
-        fields = ('auction_id', 'bid_time', 'bid_views')
+        fields = ('product_id', 'bid_number', 'start_date','end_time')

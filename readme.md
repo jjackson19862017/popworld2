@@ -227,3 +227,4 @@ To save time I will use code from previous attempt, however will do everything f
 - Done my models, for the auctions and bids, did them together as they are in a way linked.  
 Took me a while to get everything working, many attempts to get it working.  At least im getting better with the views.py files now.  That seems to be where my troubles lie.  I have setup the auctions in Admin, however I will now try to do what I did with my products for the owner and setup it on the HTML side.  Wish me luck.
 
+- Done, didn't take me as long as I thought, used my owners products forms, models and view to save time.  Will come back to this later as I have a few ideas to improve UX.
