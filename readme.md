@@ -247,3 +247,7 @@ Took me a while to get everything working, many attempts to get it working.  At 
 
 - Looks like the next video is search so looks like I will start that next bit.
 
+- Completed the search video and can search from products, I will expand on the search features in future revisions.  Just need to get all the back end sorted first.
+
+- Stripe is next, so I have updated the settings.py and env.py.
+
