@@ -245,9 +245,20 @@ Took me a while to get everything working, many attempts to get it working.  At 
 
 - I have made the cart app, but I have called it checkout, because I am not dealing with multiple quantities.  Just single purchases.
 
+- Test - I tried "Ich" and nothing came up but empty box, so it was right about the number of products, however no information came up.
+
+- I changed the views.py in search and it works.
+
+- Test - I tried "Ich" and the details as expected turned up.
+- Test - I tried "Ble" and the details as expected turned up.
+- Test - I tried "Ren" and the details as expected turned up.
+
 - Looks like the next video is search so looks like I will start that next bit.
 
 - Completed the search video and can search from products, I will expand on the search features in future revisions.  Just need to get all the back end sorted first.
 
 - Stripe is next, so I have updated the settings.py and env.py.
 
+- I am now watching the video for Checkout, but I already have a checkout app.  So I will and try and merge things together.  Fingers crossed.
+
+- Watched the videos from Code Institute and did my checkout, gonna upload to GitHub and call it a night.  Will sort any issues out in the morning and write a plan of action for what I need to do, to complete the project.
