@@ -242,3 +242,8 @@ Took me a while to get everything working, many attempts to get it working.  At 
 - Wished I could of continued this over the weekend however issues at work kept me from this.
 
 - Watchthe the ECommenrce Videos from Code Institute to get my head around checking out for customers.
+
+- I have made the cart app, but I have called it checkout, because I am not dealing with multiple quantities.  Just single purchases.
+
+- Looks like the next video is search so looks like I will start that next bit.
+

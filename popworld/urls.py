@@ -21,6 +21,7 @@ from auctions import urls as urls_auctions
 from bids import urls as urls_bids
 from home import urls as urls_home
 from checkout import urls as urls_checkout
+from search import urls as urls_search
 from products.views import all_products, addproducts
 from django.views import static
 from .settings import MEDIA_ROOT
@@ -34,6 +35,7 @@ urlpatterns = [
     url(r'^auctions/', include(urls_auctions)),
     url(r'^bids/', include(urls_bids)),
     url(r'^checkout/', include(urls_checkout)),
+    url(r'^search/', include(urls_search)),
     url(r'^media/(?P<path>.*)$', static.serve, {'document_root': MEDIA_ROOT}),
     url(r'^home/', include(urls_home)),
 ]
