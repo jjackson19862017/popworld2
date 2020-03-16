@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'products',
     'auctions',
     'bids',
+    'checkout',
 
 ]
 
@@ -73,6 +74,7 @@ TEMPLATES = [
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
                 'django.template.context_processors.media',
+                'checkout.context.checkout_contents',
             ],
         },
     },

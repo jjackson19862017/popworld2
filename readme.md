@@ -234,3 +234,11 @@ Took me a while to get everything working, many attempts to get it working.  At 
 - While building the html for the bid.html, I discovered that in my excitement of adding the user auction form.  It doesn't setup properly like it should do with the Admin side.
 
 - I have the information displayed on the bid.html, as much as I could so I will now create the Checkout app
+
+- Created checkout app and its files that go with the app, I also updated the settings.py file and the url.py
+
+### Monday 16th March 2020
+
+- Wished I could of continued this over the weekend however issues at work kept me from this.
+
+- Watchthe the ECommenrce Videos from Code Institute to get my head around checking out for customers.
