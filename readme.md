@@ -262,3 +262,7 @@ Took me a while to get everything working, many attempts to get it working.  At 
 - I am now watching the video for Checkout, but I already have a checkout app.  So I will and try and merge things together.  Fingers crossed.
 
 - Watched the videos from Code Institute and did my checkout, gonna upload to GitHub and call it a night.  Will sort any issues out in the morning and write a plan of action for what I need to do, to complete the project.
+
+### Tuesday 17th March 2020
+
+- Just found out, that my work holiday that I planned to have and complete this project has been cancelled due to the COVID19.  So I don't know if I will be able to finish this or not in time for the deadline at the end of the month.
